@@ -1,0 +1,60 @@
+body{
+    font-family: "Work Sans", serif;
+}
+
+header{
+    background-color:rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.brand-name{
+    font-size: 45px;
+    font-weight: 700;
+}
+nav> ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242; ;
+}
+.banner-content-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.banner-content{
+    width: 862px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.banner-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFF;
+    padding: 21px 25px 20px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight: 600;
+
+}
+.explore-more-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 41px auto 41px auto;}
